@@ -9946,3 +9946,14 @@ background-position: right 16px center;
     background-color: #8b5a3c;
     transform: scale(1.1);
 }
+.birthday-visual img {
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), box-shadow 0.5s ease;
+      border-radius: 12px;
+      }
+
+      .birthday-visual:hover img {
+        transform: translateY(-8px) scale(1.04);
+          box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+          }
+          
+}
